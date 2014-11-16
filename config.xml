@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns = "http://www.w3.org/ns/widgets"
-	     xmlns:gap = "http://phonegap.com/ns/1.0"
-       id        = "com.prantikv.camera" 
-       VersionCode="4.2"
-       version   = "1.0">
-    <name>CameraAPI</name>
-    <description>Sample camreta app to check config</description>
-<author href="prantikv.com" email="prantikv@yahoo.com">
-Prantik Vaghela
-</author>
-    <gap:platform name="android" />
-   	
-    <preference name="phonegap-version" value="3.6.3" />
-	  <preference name="orientation" value="portrait" />
-     <feature name="http://api.phonegap.com/1.0/camera"/>
-     
-      <gap:plugin name="org.apache.cordova.core.camera" />
-<!-- <plugin name="SavePhotoPlugin" value="org.apache.cordova.plugin.SavePhotoPlugin"/> -->
-   	
- <!--   <gap:plugin name="com.adobe.plugins.fastcanvas" version="1.0.1" /> -->  
-    
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.hello-world"
+        version   = "1.0.0">
+
+    <name>Camera App</name>
+
+    <description>
+        Camera example app.
+    </description>
+
+    <author href="http://phonegap.com" email="support@phonegap.com">
+        Prantik
+    </author>
+      <gap:platform name="android" />
+    <preference name="phonegap-version" value="3.6.3" /> 
+
+    <gap:plugin name="org.apache.cordova.core.camera" />
 </widget>
