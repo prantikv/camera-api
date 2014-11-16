@@ -1,3 +1,6 @@
+window.addEventListener("load", function(){
+	alert(4);
+
 document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
@@ -26,3 +29,6 @@ function onSuccess(imageURI) {
 function onFail(message) {
     alert('Failed because: ' + message);
 }
+
+});
+
