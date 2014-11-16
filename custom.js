@@ -6,3 +6,10 @@ function onDeviceReady() {
         alert(navigator.camera);
 }
 
+
+document.getElementById('gallery').addEventListener('click',takepicture);
+
+
+function takepicture(){
+	alert(2);
+}
