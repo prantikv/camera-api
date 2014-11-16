@@ -19,6 +19,7 @@ function takepicture(){
 
 function onSuccess(imageURI) {
     var image = document.getElementById('myImage');
+    alert(imageURI);
     image.src = imageURI;
 }
 
